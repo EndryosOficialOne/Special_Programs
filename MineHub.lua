@@ -2441,6 +2441,26 @@ Misc:AddToggle({"Auto Click", true, function(Value)
   getgenv().AutoClick = Value
 end, "Misc/AutoClick"})
 
+
+
+
+
+
+
+
+Misc:AddToggle({"Auto Click - Player", true, function(Value)
+  getgenv().AutoClick = Value
+end, "Misc/AutoClickPlayer"})
+
+
+
+
+
+
+
+
+
+
 Misc:AddToggle({"Bring Mobs", true, function(Value)
   getgenv().BringMobs = Value
 end, "Misc/BringMobs"})
