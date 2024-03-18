@@ -1,6 +1,6 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 local Window = redzlib:MakeWindow({
-  Title = "redz Hub : Blox Fruits || Eddited: BlooxYT",
+  Title = "redz Hub : Blox Fruits",
   SubTitle = "by redz9999",
   SaveFolder = "redz Hub | Blox Fruits.lua"
 })
@@ -9,15 +9,13 @@ local AFKOptions = {}
 
 local Discord = Window:MakeTab({"Discord", "Info"})
 Discord:AddDiscordInvite({
-  Name = "redz Hub | Community - OFC",
+  Name = "redz Hub | Community",
   Description = "Join our discord community to receive information about the next update",
   Logo = "rbxassetid://15298567397",
   Invite = "https://discord.gg/7aR7kNVt4g"
 })
 local MainFarm = Window:MakeTab({"Farm", "Home"})
-
 if Sea3 then
- AutoSea:AddSection({"Comming Soon!!"})
   local AutoSea = Window:MakeTab({"Sea", "Waves"})
   AutoSea:AddSection({"Kitsune"})
   local KILabel = AutoSea:AddParagraph({"Kitsune Island : not spawn"})
